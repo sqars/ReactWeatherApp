@@ -4,8 +4,10 @@ var About = React.createClass({
   render: function(){
     return(
       <div>
-        <h3>About</h3>
-        <p>This is about page.</p>
+        <h1 className="text-center">About</h1>
+        <p>Hello, my name is Maciej and welcome to my WeatherApp!</p>
+        <p>You can find code on gitHub: <a href="https://github.com/sqars/ReactWeatherApp">Git Repo</a></p>
+
       </div>
     );
   }
